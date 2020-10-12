@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(255, 60, 0);
+    font-size: 18px;
+    line-height: 29px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.botao{
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+}
+
+#divPrincipal{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background-color: rgba(85, 85, 85, 0.829);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+h2{ 
+    text-align: center;
+}
+
+/*Links*/
+#links{
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+#links:hover{
+    color: orange;
+    text-decoration: none;
+    border: none;
+}
+a, a:link{
+    color: rgba(230, 117, 43, 0.87);
+
+}
+a, a:link, a:hover{
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+    border: none;
+}
+button{
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgba(170, 170, 170, 0.699);
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(255, 60, 0);
+    font-size: 18px;
+    line-height: 29px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.botao{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+#divPrincipal{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background-color: rgba(85, 85, 85, 0.829);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+h2{ 
+    text-align: center;
+}
+
