@@ -15,12 +15,14 @@
             <fieldset><legend>Escolha</legend>
                 <input type="radio" name="compra" id="esc" value="1">
                 <label for="esc">Caneta</label>
+
                 <input type="radio" name="compra" id="esc1" value="2">
                 <label for="esc1">Lápis</label>
+
                 <input type="radio" name="compra" id="esc2" value="3">
                 <label for="esc2">Borracha</label>
             </fieldset>
-            <input type="submit" value="Enviar">
+            <input class="botao" type="submit" value="Enviar">
         </form>
         <?php
             $compra = $_GET['compra'];
@@ -36,11 +38,12 @@
                     break;
                 default:
                     echo  "";
-                   
             }   
-           
-        ?>
-        
+        ?><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <a href="/index.php">
+        <button class="botao">
+            Voltar
+        </button>
     </div>
 </body>
 </html>

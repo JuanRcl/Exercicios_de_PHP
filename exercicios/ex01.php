@@ -10,8 +10,9 @@
 <body>
     <div id="divPrincipal">
         <h2>
-            Exercício 01
+            Exercício 01 - Passagem de valores pela URL
         </h2>
+        <p>Exemplo: Adicionar ao fim da URL "?p=100"</p>
         <?php
         $preco = $_GET["p"];
         echo "O preço do produto é $preco <br/>";
