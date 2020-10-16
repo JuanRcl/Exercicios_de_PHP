@@ -1,0 +1,110 @@
+body{
+    background-color: rgba(255, 255, 255, 0.144);
+    font-size:20px;
+    line-height: 29px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+.botao{
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+}
+.nome{
+    padding-left: 10px;
+    color:black;
+}
+.frase{
+    letter-spacing: 10px;
+    color: rgb(228, 159, 32);
+    padding-top: 100px;
+}
+
+/*Section principal dos links*/
+.principal{
+    background-color: rgba(190, 190, 190, 0.281);
+    height: 550px;
+}
+
+/*Div principal dos link*/
+#divPrincipal{
+    width: auto;
+    height: auto;
+    background-color: rgba(85, 85, 85, 0.829);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+/*Div da esquerda onde estao os links*/
+#elink{
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-left: 200px;
+}
+
+/*Div da esqueda onde estao os links*/
+#dlink{
+    float: right;
+    width: 700px;
+}   
+
+h2{ 
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(235, 134, 3);
+}
+
+/*Links*/
+#links{
+    color: rgb(243, 138, 19);
+    text-decoration: none;
+    border: none;
+}
+#links:hover{
+    color: rgba(255, 166, 0, 0.986);
+    text-decoration: none;
+    border: none;
+}
+a, a:link{
+    color: rgba(230, 118, 43, 0.973);
+}
+a, a:link, a:hover, link:visited{
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+    border: none;
+}
+
+/*Secao do projeto*/
+.secproje{
+    padding-top: 10px;
+    text-align: center;
+    height: 300px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.proj{
+    padding-top: 15px;
+    text-decoration: none;
+    color: rgba(39, 124, 236, 0.952);
+    text-align: center;
+}
+
+/*Botões*/
+button{
+    background-color: rgb(235, 128, 5);
+    color: white;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgba(253, 126, 7, 0.479);
+    cursor: pointer;
+}

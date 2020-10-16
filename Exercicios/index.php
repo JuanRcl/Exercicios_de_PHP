@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso de PHP</title>
-    <link rel="stylesheet" href="/css/inicial.css">    
+    <link rel="stylesheet" href="css/inicial.css">    
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -36,16 +36,14 @@
                     Exercicios de PHP 
                 </h3>
         </section>
-    </section>
-
-    <section class="secprojeto">
-        <h2>Projetos</h2>
-        <a href="/projeto/proj.php"><h3 class="proj">Sistema de triagem de RG</h3></a>
-    </section>
-
-    
+        </section>
         
-        
-    </div>
+        <section class="secproje">
+            <div class="divsistema">
+                <h2>Projetos</h2>
+                <h3 class="proj">Sistema de triagem de RG</h3>
+                <a href="/projeto/proj.php" class="botaoproj"><button >Ver projeto</button></a>
+            </div> 
+        </section>
 </body>
 </html>
